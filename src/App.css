@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Poppins&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Jacques Francois", serif;
+}
+.main{
+  width: 50vw;
+  margin: auto;
+  height: 80vh;
+  margin-top: 100px;
+  
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  
+}
+.inputDiv{
+  background-color: rgb(246, 254, 248);
+  border-top-left-radius: 22px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid rgb(84, 115, 92);
+}
+.inputDiv input{
+  padding: 10px 20px;
+  width: 60%;
+  outline: none;
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border: 1px solid rgb(84, 115, 92);
+  font-size: 15px;
+}
+button{
+  padding: 5px;
+  width: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(52, 128, 71);
+  color: white;
+  cursor: pointer;
+}
+.todos{
+  background-color: rgb(246, 254, 248);
+  border: 1px solid red;
+  height: 70vh;
+  border: 1px solid rgb(84, 115, 92);
+  border-bottom-right-radius: 22px;
+  margin-top: 15px;
+}
+.todo{
+  border-bottom: 1px solid rgb(84, 115, 92);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  margin: 0px 15px;
+  margin-top: 5px;
+}
+.text{
+  padding: 5px 0px;
+  width: 70%;
+  font-weight: bolder;
+  color: rgb(33, 82, 45);
+  font-size: 16px;
+  border: 1px solid rgb(246, 254, 248);
+  border-radius: 5px;
+}
+.editbox{
+  padding: 5px 0px;
+  width: 70%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(84, 115, 92);
+  
+  font-weight: bolder;
+  color: rgb(33, 82, 45);
+  font-size: 16px;
+}

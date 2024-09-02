@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 60px;
+    color: white;
+    background-image: linear-gradient(to right, #3D8144 , #72DB7C);
+    position: fixed;
+    top: 0px;
+    width: 93vw;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 50%;
+
+}
+.logo{
+    padding: 0px 10px;
+}
+.logo h1{
+    font-size: 30px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+}
